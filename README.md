@@ -66,13 +66,6 @@ The protection algorithm is identical in both firmware versions, while the imple
 
 ---
 
-# Firmware Versions
-
-| Version | Microcontroller | Language   | IDE           |
-| ------- | --------------- | ---------- | ------------- |
-| V1      | ATtiny13        | C          | CodeVisionAVR |
-| V2      | ATtiny25        | BASIC | BASCOM-AVR    |
-
 ## Firmware Specifications
 
 | Parameter | ATtiny13 Version | ATtiny25 Version |
