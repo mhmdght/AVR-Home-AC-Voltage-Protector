@@ -73,6 +73,31 @@ The protection algorithm is identical in both firmware versions, while the imple
 | V1      | ATtiny13        | C          | CodeVisionAVR |
 | V2      | ATtiny25        | BASCOM-AVR | BASCOM-AVR    |
 
+## Firmware Specifications
+
+| Parameter | ATtiny13 Version | ATtiny25 Version |
+|-----------|------------------|------------------|
+| Microcontroller | ATtiny13 | ATtiny25 |
+| Programming Language | C | BASCOM-AVR (BASIC) |
+| Development Environment | CodeVisionAVR | BASCOM-AVR |
+| CPU Clock | **8 MHz** | **8 MHz** |
+| Clock Source | Internal RC Oscillator | Internal RC Oscillator |
+| ADC Resolution | 8-bit (Left Adjusted) | 10-bit |
+| ADC Reference Voltage | **AVCC (VCC)** | **Internal 1.1 V** |
+| Voltage Sensing Input | ADC2 (PB4) | ADC2 (PB4) |
+| Output Control | Relay | Relay |
+| Status Indicators | Green / Yellow / Red LEDs | Green / Yellow / Red LEDs |
+| Target AC System | 220 V / 50 Hz | 220 V / 50 Hz |
+| Proteus Simulation | ✔ Included | ✔ Included |
+
+### Notes
+
+- Both firmware versions implement the same voltage protection algorithm while targeting different AVR microcontrollers and development environments.
+- The **ATtiny13** firmware is written in **C** using **CodeVisionAVR** and uses an **8-bit left-adjusted ADC** with **AVCC (VCC)** as the ADC reference.
+- The **ATtiny25** firmware is written in **BASCOM-AVR (BASIC)** and uses the **full 10-bit ADC resolution** with the **internal 1.1 V reference**, providing higher measurement precision.
+- Both firmware versions run on the **internal 8 MHz RC oscillator**, requiring **no external crystal oscillator**.
+- The firmware source code, compiled HEX files, and Proteus simulation projects are included for both implementations.
+
 ---
 
 # Operating States
