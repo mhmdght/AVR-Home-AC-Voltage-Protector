@@ -71,14 +71,14 @@ The protection algorithm is identical in both firmware versions, while the imple
 | Version | Microcontroller | Language   | IDE           |
 | ------- | --------------- | ---------- | ------------- |
 | V1      | ATtiny13        | C          | CodeVisionAVR |
-| V2      | ATtiny25        | BASCOM-AVR | BASCOM-AVR    |
+| V2      | ATtiny25        | BASIC | BASCOM-AVR    |
 
 ## Firmware Specifications
 
 | Parameter | ATtiny13 Version | ATtiny25 Version |
 |-----------|------------------|------------------|
 | Microcontroller | ATtiny13 | ATtiny25 |
-| Programming Language | C | BASCOM-AVR (BASIC) |
+| Programming Language | C | BASIC |
 | Development Environment | CodeVisionAVR | BASCOM-AVR |
 | CPU Clock | **9.6 MHz** | **8 MHz** |
 | Clock Source | Internal RC Oscillator | Internal RC Oscillator |
