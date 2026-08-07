@@ -243,15 +243,6 @@ If you discover an issue or have an idea for improving the project, feel free to
 
 ---
 
-# Author
-
-**Mohammad Ghaffari**
-
-GitHub:
-https://github.com/mhmdght
-
----
-
 # Disclaimer
 
 ⚠️ **Warning**
