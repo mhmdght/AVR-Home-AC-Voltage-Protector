@@ -80,7 +80,7 @@ The protection algorithm is identical in both firmware versions, while the imple
 | Microcontroller | ATtiny13 | ATtiny25 |
 | Programming Language | C | BASCOM-AVR (BASIC) |
 | Development Environment | CodeVisionAVR | BASCOM-AVR |
-| CPU Clock | **8 MHz** | **8 MHz** |
+| CPU Clock | **9.6 MHz** | **8 MHz** |
 | Clock Source | Internal RC Oscillator | Internal RC Oscillator |
 | ADC Resolution | 8-bit (Left Adjusted) | 10-bit |
 | ADC Reference Voltage | **AVCC (VCC)** | **Internal 1.1 V** |
@@ -95,7 +95,6 @@ The protection algorithm is identical in both firmware versions, while the imple
 - Both firmware versions implement the same voltage protection algorithm while targeting different AVR microcontrollers and development environments.
 - The **ATtiny13** firmware is written in **C** using **CodeVisionAVR** and uses an **8-bit left-adjusted ADC** with **AVCC (VCC)** as the ADC reference.
 - The **ATtiny25** firmware is written in **BASCOM-AVR (BASIC)** and uses the **full 10-bit ADC resolution** with the **internal 1.1 V reference**, providing higher measurement precision.
-- Both firmware versions run on the **internal 8 MHz RC oscillator**, requiring **no external crystal oscillator**.
 - The firmware source code, compiled HEX files, and Proteus simulation projects are included for both implementations.
 
 ---
